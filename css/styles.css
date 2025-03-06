@@ -1,0 +1,210 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@400;700&display=swap');
+
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(-45deg, #0a192f, #1a2a4f);
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Bar */
+header {
+  background: rgba(0, 0, 0, 0.9);
+  padding: 15px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #f4b400;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #f4b400;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #ff9800;
+}
+
+/* Marketplace Grid */
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-card {
+  background: white;
+  color: black;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  width: 250px;
+  transition: transform 0.3s ease;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+button {
+  background: #f4b400;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #ff9800;
+}
+
+/* Wardrobe Section */
+.wardrobe {
+  text-align: center;
+  padding: 20px;
+}
+
+#wardrobe-items {
+  background: white;
+  padding: 15px;
+  border-radius: 5px;
+  color: black;
+  margin: 20px auto;
+  width: 300px;
+  min-height: 50px;
+}
+
+/* Sell Page */
+.sell {
+  text-align: center;
+  padding: 20px;
+}
+
+#sellForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  color: black;
+}
+
+#sellForm input, #sellForm select {
+  padding: 10px;
+  border: 2px solid #f4b400;
+  border-radius: 5px;
+}
+
+#sellForm button {
+  background: #f4b400;
+  padding: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#sellForm button:hover {
+  background: #ff9800;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: black;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-bar input {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .product-card {
+    width: 90%;
+    max-width: 300px;
+  }
+
+  .wardrobe {
+    width: 90%;
+    max-width: 400px;
+  }
+
+  .modal-content {
+    width: 90%;
+    max-width: 350px;
+  }
+}

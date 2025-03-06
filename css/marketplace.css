@@ -1,0 +1,43 @@
+.marketplace {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .product-card {
+    background: white;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s ease;
+  }
+  
+  .product-card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+  }
+  
+  button {
+    background: #f4b400;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background: #ff9800;
+  }
+  

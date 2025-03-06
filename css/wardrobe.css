@@ -1,0 +1,27 @@
+.wardrobe {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #wardrobe-items {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    color: black;
+    margin: 20px auto;
+    width: 300px;
+    min-height: 50px;
+  }
+  
+  button {
+    background: #f4b400;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background: #ff9800;
+  }
+  

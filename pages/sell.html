@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fashion Hub - Sell</title>
+  <link rel="stylesheet" href="../css/styles.css">  <!-- ✅ FIX: Apply Global Styles -->
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="logo"><a href="../index.html">Fashion Hub</a></div>
+      <ul>
+        <li><a href="marketplace.html">Marketplace</a></li>
+        <li><a href="wardrobe.html">Wardrobe</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="sell">
+    <h2>Sell Your Product</h2>
+    <form id="sellForm">
+      <label>Product Name:</label>
+      <input type="text" id="sell-name" required>
+      
+      <label>Category:</label>
+      <select id="sell-category" required>
+        <option value="shirt">Shirt</option>
+        <option value="pants">Pants</option>
+        <option value="shoes">Shoes</option>
+      </select>
+
+      <label>Price ($):</label>
+      <input type="number" id="sell-price" required>
+
+      <label>Upload Image:</label>
+      <input type="file" id="sell-image" accept="image/*" required>
+
+      <button type="submit">List for Sale</button>
+    </form>
+  </section>
+
+  <script src="../js/sell.js"></script>
+
+</body>
+</html>
