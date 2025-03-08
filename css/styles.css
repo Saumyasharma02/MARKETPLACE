@@ -4,15 +4,15 @@
 /* General Styles */
 body {
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(-45deg, #BEAFC2, #695E93);
-  color: white;
+  background: linear-gradient(-45deg, #7954A1, #C8B4D0);
+  color: #EFDCF9;
   margin: 0;
   padding: 0;
 }
 
 /* Navigation Bar */
 header {
-  background: rgba(0, 0, 0, 0.9);
+  background: #603F8B;
   padding: 15px;
   text-align: center;
 }
@@ -172,7 +172,7 @@ button:hover {
 footer {
   text-align: center;
   padding: 20px;
-  background: black;
+  background: #603F8B;
 }
 
 /* Responsive Design */
